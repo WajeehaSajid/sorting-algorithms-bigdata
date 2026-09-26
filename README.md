@@ -30,6 +30,3 @@ Set `DEMO_MODE = False` and point `DATA_PATH` at your downloaded Kaggle CSV(s) t
 - All three algorithms confirm the expected `O(n²)` growth pattern on random data
 - Insertion sort's best case (already-sorted input) is dramatically faster (`O(n)`) than its worst case (reverse-sorted)
 - At full dataset scale (millions of rows), these `O(n²)` algorithms become completely impractical — Timsort wins by orders of magnitude
-
----
-*Class assignment for CS coursework — implemented and benchmarked by Jiya.*
